@@ -7,7 +7,7 @@ body {
   height: 95%;
   width: 100%;
   font-family: sans-serif;
-  background-image: url('http://addyosmani.com/blog/wp-content/uploads/2013/04/unicorn.jpg');
+  background-image: url("concrete_seamless.png");
 }
 
 .main-container {
@@ -20,6 +20,13 @@ body {
 
 .main-container h1 {
   text-align: center;
+}
+
+.search {
+  text-align: center;
+  margin: 0px auto;
+  width: 40%;
+
 }
 
 .text-box {
