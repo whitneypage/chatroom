@@ -16,16 +16,16 @@ $scope.getParseData = function() {
 
 $scope.getParseData();
 
-
   //The postData function will take whatever the user typed in (hint: look at the html and see what ng-model correlates to on the input box),
   //pass that text to the postData method on the parseService object which will then post it to the parse backend.
 $scope.postData = function() {
   parseService.postData($scope.message)
   .then(function(response) {
     console.log(response);
+    $scope.message = '';
+
   })
 }
-$scope.postData();
 
 
 
